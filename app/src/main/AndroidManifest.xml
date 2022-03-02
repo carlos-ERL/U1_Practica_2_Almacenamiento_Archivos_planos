@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="mx.edu.ittepic.ladm_u1_practica1_almacenamiento_archivosplanos">
+    package="mx.edu.ittepic.practica_2_archivos_planos">
 
     <application
         android:allowBackup="true"
@@ -8,10 +8,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LADM_U1_Practica1_Almacenamiento_ArchivosPlanos">
+        android:theme="@style/Theme.Practica_2_Archivos_Planos">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Practica_2_Archivos_Planos.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

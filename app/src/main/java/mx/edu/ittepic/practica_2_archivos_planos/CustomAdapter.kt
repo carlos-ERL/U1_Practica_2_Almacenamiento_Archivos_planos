@@ -1,4 +1,4 @@
-package mx.edu.ittepic.ladm_u1_practica1_almacenamiento_archivosplanos
+package mx.edu.ittepic.practica_2_archivos_planos
 
 import android.view.LayoutInflater
 import android.view.View

@@ -1,4 +1,4 @@
-package mx.edu.ittepic.ladm_u1_practica1_almacenamiento_archivosplanos
+package mx.edu.ittepic.practica_2_archivos_planos
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,9 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals(
-            "mx.edu.ittepic.ladm_u1_practica1_almacenamiento_archivosplanos",
-            appContext.packageName
-        )
+        assertEquals("mx.edu.ittepic.practica_2_archivos_planos", appContext.packageName)
     }
 }
